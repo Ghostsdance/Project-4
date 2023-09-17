@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="" content="">
+  <title>
+    Lab 5
+  </title>
+  <link rel="stylesheet" href="Css/A.v.css" />
+  <style>
+    /*Here is Internal stylesheet*/
+    .audio {
+      background-color: pink;
+      padding: 50px 30px;
+      width: 80%
+      margin: auto;
+      text-align: center;
+      border: solid;
+      border-color: black;
+      border-radius: 20px;
+      border-width: 10px;
+      font-family: Courier new;
+      font-style: italic;
+      font-size: 50px;;
+      /* Here is Internal style sheet   */
+      .A {
+      border: dashed;
+      background-color: red;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div class="audio">
+    <!--Here is Inline style sheet-->
+    <h1 style="border:10px groove red;background-color:white;color:blue;">Audio Media<h1>
+      <audio class="A" controls preload>
+        <source src="/Audio/1.mp3" type="audio/mp3" /> </audio>
+    </div>
+      <br />
+      <!--Here is External styleshee-->
+      <div id="video">
+        <h1 id="vd">Video Media</h1>
+        <video controls src="/Video/1.mp4" height=400px width=500px preload autoplay="autoplay" muted loop="2" poster="/image/22.jpg"> <source src="/Vid" type="Video/mp4" /> </video>
+      </div>
+    </body>
+  </html>
