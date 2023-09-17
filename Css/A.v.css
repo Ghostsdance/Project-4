@@ -1,1 +1,22 @@
+#video {
+  background-color: green;
+  padding: 50px 50px;
+  margin: auto;
+  border-radius: 50px;
+  text-align: center;
+  border: solid;
+  border-color: yellow;
+  border-width: 50px;
+  font-family: Times New Roman;
+  font-style: italic;
+  font-size: 50px;
+}
+#vd {
+  border: double;
+  border-width: 10px;
+  background-color: black;
+  color: white;
+  border-color: blue;;
+  border-radius: 10px;
 
+}
